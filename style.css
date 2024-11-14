@@ -1,0 +1,126 @@
+.carouselOne{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 80px 80px;
+}
+
+.carouselItem{
+    padding-right: 48px;
+    transition: 0.8s;
+    width: 200px;
+     /* width: fit-content; */
+     flex: 0 0 16%;
+}
+.carouselOne img{
+    width: 200px;
+    width: inherit;
+}
+.activeIMG{
+    transform: scale(1.5);
+    transition: 0.8s;
+}
+.carouselItem:has(.activeIMG){
+    margin: 0 24px;
+}
+.buttonDiv{
+    display: flex;
+    justify-content: end;
+}
+.buttonDiv button{
+    outline: none;
+    border: none;
+    background: none;
+}
+.buttonDiv button:hover{
+    cursor: pointer;
+}
+.heading-holder{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.heading-holder h3{
+    margin: 0;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    color: #222222;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+.itemBoxOne span{
+    font-family: "qanelas";
+    color: #2f2f2f;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.description{
+    margin: 0;
+    padding: 2px 24px;
+    border-left:4px solid rgb(62, 33, 141);
+    font-family: "qanelas";
+    font-size: 18px;
+    line-height: 24px;
+    color: #2f2f2f;
+    margin-top: 20px;
+}
+.itemBoxOne{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 55%;
+}
+.carouselItemTwo{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-grow: unset;
+    width: inherit;
+}
+.itemBoxTwo{
+    width: 40%;
+    /* width: 400px; */
+    border: 1px solid black;
+}
+.event{
+    font-weight: 600 !important;
+    color: #e50000 !important;
+    text-decoration: underline; 
+}
+.container{
+    /* width: 98vw; */
+    flex-grow: unset;
+    flex: 0 0 100%;
+    transition: 0.8s;
+
+}
+.carouselTwo{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 48px;
+}
+
+@media(max-width: 600px) {
+    .carouselItem{
+        flex: 0 0 85%;
+    }
+    .carouselItemTwo{
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    .itemBoxOne{
+        width: 100%;
+    }
+    .itemBoxTwo{
+        width: 100%;
+        height: 200px;
+    }
+    .buttonDiv{
+        justify-content: start;
+    }
+}
+
+ 

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double Carousel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="carouselOne">
+        <div class="carouselItem ">
+            <img class="activeIMG" src="./media/test.png" alt="">
+        </div>
+        <div class="carouselItem">
+            <img src="./media/test.png" alt="">
+        </div>
+        <div class="carouselItem">
+            <img src="./media/test.png" alt="">
+        </div>
+        <div class="carouselItem ">
+            <img class="" src="./media/test.png" alt="">
+        </div>
+        <div class="carouselItem ">
+            <img class="" src="./media/test.png" alt="">
+        </div>
+        <div class="carouselItem ">
+            <img class="" src="./media/test.png" alt="">
+        </div>
+        <div class="carouselItem ">
+            <img class="" src="./media/test.png" alt="">
+        </div>
+        <div class="carouselItem ">
+            <img class="" src="./media/test.png" alt="">
+        </div>
+    </div>
+    <div class="buttonDiv">
+        <button onclick="moveBack()"><svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <rect x="-0.5" y="0.5" width="47" height="47" rx="23.5" transform="matrix(-1 0 0 1 47 0)"
+                    stroke="#1C1C1C" />
+                <mask id="mask0_2837_654" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="12" y="12" width="24"
+                    height="24">
+                    <rect width="24" height="24" transform="matrix(-1 0 0 1 36 12)" fill="#D9D9D9" />
+                </mask>
+                <g mask="url(#mask0_2837_654)">
+                    <path
+                        d="M18.9212 24.5H31V23.5H18.9212L24.7135 17.7077L24 17L17 24L24 31L24.7135 30.2923L18.9212 24.5Z"
+                        fill="#1C1C1C" />
+                </g>
+            </svg>
+        </button>
+        <button onclick="moveForward()"><svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.5" y="0.5" width="47" height="47" rx="23.5" stroke="#1C1C1C" />
+                <mask id="mask0_2837_649" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="12" y="12" width="24"
+                    height="24">
+                    <rect x="12" y="12" width="24" height="24" fill="#D9D9D9" />
+                </mask>
+                <g mask="url(#mask0_2837_649)">
+                    <path
+                        d="M29.0788 24.5H17V23.5H29.0788L23.2865 17.7077L24 17L31 24L24 31L23.2865 30.2923L29.0788 24.5Z"
+                        fill="#1C1C1C" />
+                </g>
+            </svg>
+        </button>
+    </div>
+    <div class="carouselTwo">
+        <div class="container">
+            <div class="carouselItemTwo">
+                <div class="itemBoxOne ">
+                    <div class="heading-holder">
+                        <h3>Ratan Tata</h3>
+                        <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1661_1903)">
+                                    <path
+                                        d="M20.6491 20.9566H17.093V15.3876C17.093 14.0596 17.0693 12.35 15.2435 12.35C13.3914 12.35 13.108 13.7969 13.108 15.2909V20.9562H9.55199V9.50402H12.9658V11.0691H13.0136C13.7097 9.87888 15.004 9.16801 16.3818 9.21916C19.986 9.21916 20.6506 11.5899 20.6506 14.6741L20.6491 20.9566ZM5.53958 7.93858C4.39988 7.93879 3.4758 7.01502 3.47559 5.87529C3.47539 4.73556 4.39913 3.81146 5.53884 3.81125C6.67855 3.81105 7.60263 4.73482 7.60283 5.87455C7.60293 6.42186 7.38561 6.94681 6.99867 7.33389C6.61174 7.72097 6.08689 7.93848 5.53958 7.93858ZM7.31761 20.9566H3.75785V9.50402H7.31761V20.9566ZM22.4219 0.50887H1.97094C1.00438 0.497962 0.211747 1.27221 0.199951 2.23878V22.775C0.211344 23.7421 1.00391 24.5171 1.97094 24.5069H22.4219C23.3909 24.519 24.1865 23.744 24.2 22.775V2.2373C24.1861 1.26882 23.3904 0.494615 22.4219 0.507232"
+                                        fill="#0A66C2" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_1661_1903">
+                                        <rect width="24" height="24" fill="white"
+                                            transform="translate(0.200195 0.50708)" />
+                                    </clipPath>
+                                </defs>
+                            </svg></a>
+                    </div>
+
+                    <span>CEO & Founder, Tata Motors</span>
+                    <span class="">Event: <span class="event">LCE 2024 (3rd edition)</span> </span>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eos nihil rerum sequi voluptatum
+                        ut sunt excepturi maiores amet molestiae cupiditate, repellat ea sapiente! Fuga doloribus
+                        suscipit fugiat nulla inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
+                        officia!
+                    </p>
+                </div>
+                <div class="itemBoxTwo">
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="carouselItemTwo">
+                <div class="itemBoxOne ">
+                    <div class="heading-holder">
+                        <h3>Ratan Tata</h3>
+                        <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1661_1903)">
+                                    <path
+                                        d="M20.6491 20.9566H17.093V15.3876C17.093 14.0596 17.0693 12.35 15.2435 12.35C13.3914 12.35 13.108 13.7969 13.108 15.2909V20.9562H9.55199V9.50402H12.9658V11.0691H13.0136C13.7097 9.87888 15.004 9.16801 16.3818 9.21916C19.986 9.21916 20.6506 11.5899 20.6506 14.6741L20.6491 20.9566ZM5.53958 7.93858C4.39988 7.93879 3.4758 7.01502 3.47559 5.87529C3.47539 4.73556 4.39913 3.81146 5.53884 3.81125C6.67855 3.81105 7.60263 4.73482 7.60283 5.87455C7.60293 6.42186 7.38561 6.94681 6.99867 7.33389C6.61174 7.72097 6.08689 7.93848 5.53958 7.93858ZM7.31761 20.9566H3.75785V9.50402H7.31761V20.9566ZM22.4219 0.50887H1.97094C1.00438 0.497962 0.211747 1.27221 0.199951 2.23878V22.775C0.211344 23.7421 1.00391 24.5171 1.97094 24.5069H22.4219C23.3909 24.519 24.1865 23.744 24.2 22.775V2.2373C24.1861 1.26882 23.3904 0.494615 22.4219 0.507232"
+                                        fill="#0A66C2" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_1661_1903">
+                                        <rect width="24" height="24" fill="white"
+                                            transform="translate(0.200195 0.50708)" />
+                                    </clipPath>
+                                </defs>
+                            </svg></a>
+                    </div>
+
+                    <span>CEO & Founder, Tata Motors</span>
+                    <span class="">Event: <span class="event">LCE 2024 (3rd edition)</span> </span>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eos nihil rerum sequi voluptatum
+                        ut sunt excepturi maiores amet molestiae cupiditate, repellat ea sapiente! Fuga doloribus
+                        suscipit fugiat nulla inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
+                        officia!
+                    </p>
+                </div>
+                <div class="itemBoxTwo">
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="carouselItemTwo">
+                <div class="itemBoxOne ">
+                    <div class="heading-holder">
+                        <h3>Ratan Tata</h3>
+                        <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1661_1903)">
+                                    <path
+                                        d="M20.6491 20.9566H17.093V15.3876C17.093 14.0596 17.0693 12.35 15.2435 12.35C13.3914 12.35 13.108 13.7969 13.108 15.2909V20.9562H9.55199V9.50402H12.9658V11.0691H13.0136C13.7097 9.87888 15.004 9.16801 16.3818 9.21916C19.986 9.21916 20.6506 11.5899 20.6506 14.6741L20.6491 20.9566ZM5.53958 7.93858C4.39988 7.93879 3.4758 7.01502 3.47559 5.87529C3.47539 4.73556 4.39913 3.81146 5.53884 3.81125C6.67855 3.81105 7.60263 4.73482 7.60283 5.87455C7.60293 6.42186 7.38561 6.94681 6.99867 7.33389C6.61174 7.72097 6.08689 7.93848 5.53958 7.93858ZM7.31761 20.9566H3.75785V9.50402H7.31761V20.9566ZM22.4219 0.50887H1.97094C1.00438 0.497962 0.211747 1.27221 0.199951 2.23878V22.775C0.211344 23.7421 1.00391 24.5171 1.97094 24.5069H22.4219C23.3909 24.519 24.1865 23.744 24.2 22.775V2.2373C24.1861 1.26882 23.3904 0.494615 22.4219 0.507232"
+                                        fill="#0A66C2" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_1661_1903">
+                                        <rect width="24" height="24" fill="white"
+                                            transform="translate(0.200195 0.50708)" />
+                                    </clipPath>
+                                </defs>
+                            </svg></a>
+                    </div>
+
+                    <span>CEO & Founder, Tata Motors</span>
+                    <span class="">Event: <span class="event">LCE 2024 (3rd edition)</span> </span>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eos nihil rerum sequi voluptatum
+                        ut sunt excepturi maiores amet molestiae cupiditate, repellat ea sapiente! Fuga doloribus
+                        suscipit fugiat nulla inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
+                        officia!
+                    </p>
+                </div>
+                <div class="itemBoxTwo">
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="carouselItemTwo">
+                <div class="itemBoxOne ">
+                    <div class="heading-holder">
+                        <h3>Ratan Tata</h3>
+                        <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1661_1903)">
+                                    <path
+                                        d="M20.6491 20.9566H17.093V15.3876C17.093 14.0596 17.0693 12.35 15.2435 12.35C13.3914 12.35 13.108 13.7969 13.108 15.2909V20.9562H9.55199V9.50402H12.9658V11.0691H13.0136C13.7097 9.87888 15.004 9.16801 16.3818 9.21916C19.986 9.21916 20.6506 11.5899 20.6506 14.6741L20.6491 20.9566ZM5.53958 7.93858C4.39988 7.93879 3.4758 7.01502 3.47559 5.87529C3.47539 4.73556 4.39913 3.81146 5.53884 3.81125C6.67855 3.81105 7.60263 4.73482 7.60283 5.87455C7.60293 6.42186 7.38561 6.94681 6.99867 7.33389C6.61174 7.72097 6.08689 7.93848 5.53958 7.93858ZM7.31761 20.9566H3.75785V9.50402H7.31761V20.9566ZM22.4219 0.50887H1.97094C1.00438 0.497962 0.211747 1.27221 0.199951 2.23878V22.775C0.211344 23.7421 1.00391 24.5171 1.97094 24.5069H22.4219C23.3909 24.519 24.1865 23.744 24.2 22.775V2.2373C24.1861 1.26882 23.3904 0.494615 22.4219 0.507232"
+                                        fill="#0A66C2" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_1661_1903">
+                                        <rect width="24" height="24" fill="white"
+                                            transform="translate(0.200195 0.50708)" />
+                                    </clipPath>
+                                </defs>
+                            </svg></a>
+                    </div>
+
+                    <span>CEO & Founder, Tata Motors</span>
+                    <span class="">Event: <span class="event">LCE 2024 (3rd edition)</span> </span>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eos nihil rerum sequi voluptatum
+                        ut sunt excepturi maiores amet molestiae cupiditate, repellat ea sapiente! Fuga doloribus
+                        suscipit fugiat nulla inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
+                        officia!
+                    </p>
+                </div>
+                <div class="itemBoxTwo">
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="carouselItemTwo">
+                <div class="itemBoxOne ">
+                    <div class="heading-holder">
+                        <h3>Ratan Tata</h3>
+                        <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1661_1903)">
+                                    <path
+                                        d="M20.6491 20.9566H17.093V15.3876C17.093 14.0596 17.0693 12.35 15.2435 12.35C13.3914 12.35 13.108 13.7969 13.108 15.2909V20.9562H9.55199V9.50402H12.9658V11.0691H13.0136C13.7097 9.87888 15.004 9.16801 16.3818 9.21916C19.986 9.21916 20.6506 11.5899 20.6506 14.6741L20.6491 20.9566ZM5.53958 7.93858C4.39988 7.93879 3.4758 7.01502 3.47559 5.87529C3.47539 4.73556 4.39913 3.81146 5.53884 3.81125C6.67855 3.81105 7.60263 4.73482 7.60283 5.87455C7.60293 6.42186 7.38561 6.94681 6.99867 7.33389C6.61174 7.72097 6.08689 7.93848 5.53958 7.93858ZM7.31761 20.9566H3.75785V9.50402H7.31761V20.9566ZM22.4219 0.50887H1.97094C1.00438 0.497962 0.211747 1.27221 0.199951 2.23878V22.775C0.211344 23.7421 1.00391 24.5171 1.97094 24.5069H22.4219C23.3909 24.519 24.1865 23.744 24.2 22.775V2.2373C24.1861 1.26882 23.3904 0.494615 22.4219 0.507232"
+                                        fill="#0A66C2" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_1661_1903">
+                                        <rect width="24" height="24" fill="white"
+                                            transform="translate(0.200195 0.50708)" />
+                                    </clipPath>
+                                </defs>
+                            </svg></a>
+                    </div>
+
+                    <span>CEO & Founder, Tata Motors</span>
+                    <span class="">Event: <span class="event">LCE 2024 (3rd edition)</span> </span>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eos nihil rerum sequi voluptatum
+                        ut sunt excepturi maiores amet molestiae cupiditate, repellat ea sapiente! Fuga doloribus
+                        suscipit fugiat nulla inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
+                        officia!
+                    </p>
+                </div>
+                <div class="itemBoxTwo">
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="carouselItemTwo">
+                <div class="itemBoxOne ">
+                    <div class="heading-holder">
+                        <h3>Ratan Tata</h3>
+                        <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1661_1903)">
+                                    <path
+                                        d="M20.6491 20.9566H17.093V15.3876C17.093 14.0596 17.0693 12.35 15.2435 12.35C13.3914 12.35 13.108 13.7969 13.108 15.2909V20.9562H9.55199V9.50402H12.9658V11.0691H13.0136C13.7097 9.87888 15.004 9.16801 16.3818 9.21916C19.986 9.21916 20.6506 11.5899 20.6506 14.6741L20.6491 20.9566ZM5.53958 7.93858C4.39988 7.93879 3.4758 7.01502 3.47559 5.87529C3.47539 4.73556 4.39913 3.81146 5.53884 3.81125C6.67855 3.81105 7.60263 4.73482 7.60283 5.87455C7.60293 6.42186 7.38561 6.94681 6.99867 7.33389C6.61174 7.72097 6.08689 7.93848 5.53958 7.93858ZM7.31761 20.9566H3.75785V9.50402H7.31761V20.9566ZM22.4219 0.50887H1.97094C1.00438 0.497962 0.211747 1.27221 0.199951 2.23878V22.775C0.211344 23.7421 1.00391 24.5171 1.97094 24.5069H22.4219C23.3909 24.519 24.1865 23.744 24.2 22.775V2.2373C24.1861 1.26882 23.3904 0.494615 22.4219 0.507232"
+                                        fill="#0A66C2" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_1661_1903">
+                                        <rect width="24" height="24" fill="white"
+                                            transform="translate(0.200195 0.50708)" />
+                                    </clipPath>
+                                </defs>
+                            </svg></a>
+                    </div>
+
+                    <span>CEO & Founder, Tata Motors</span>
+                    <span class="">Event: <span class="event">LCE 2024 (3rd edition)</span> </span>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eos nihil rerum sequi voluptatum
+                        ut sunt excepturi maiores amet molestiae cupiditate, repellat ea sapiente! Fuga doloribus
+                        suscipit fugiat nulla inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
+                        officia!
+                    </p>
+                </div>
+                <div class="itemBoxTwo">
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="carouselItemTwo">
+                <div class="itemBoxOne ">
+                    <div class="heading-holder">
+                        <h3>Ratan Tata</h3>
+                        <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1661_1903)">
+                                    <path
+                                        d="M20.6491 20.9566H17.093V15.3876C17.093 14.0596 17.0693 12.35 15.2435 12.35C13.3914 12.35 13.108 13.7969 13.108 15.2909V20.9562H9.55199V9.50402H12.9658V11.0691H13.0136C13.7097 9.87888 15.004 9.16801 16.3818 9.21916C19.986 9.21916 20.6506 11.5899 20.6506 14.6741L20.6491 20.9566ZM5.53958 7.93858C4.39988 7.93879 3.4758 7.01502 3.47559 5.87529C3.47539 4.73556 4.39913 3.81146 5.53884 3.81125C6.67855 3.81105 7.60263 4.73482 7.60283 5.87455C7.60293 6.42186 7.38561 6.94681 6.99867 7.33389C6.61174 7.72097 6.08689 7.93848 5.53958 7.93858ZM7.31761 20.9566H3.75785V9.50402H7.31761V20.9566ZM22.4219 0.50887H1.97094C1.00438 0.497962 0.211747 1.27221 0.199951 2.23878V22.775C0.211344 23.7421 1.00391 24.5171 1.97094 24.5069H22.4219C23.3909 24.519 24.1865 23.744 24.2 22.775V2.2373C24.1861 1.26882 23.3904 0.494615 22.4219 0.507232"
+                                        fill="#0A66C2" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_1661_1903">
+                                        <rect width="24" height="24" fill="white"
+                                            transform="translate(0.200195 0.50708)" />
+                                    </clipPath>
+                                </defs>
+                            </svg></a>
+                    </div>
+
+                    <span>CEO & Founder, Tata Motors</span>
+                    <span class="">Event: <span class="event">LCE 2024 (3rd edition)</span> </span>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eos nihil rerum sequi voluptatum
+                        ut sunt excepturi maiores amet molestiae cupiditate, repellat ea sapiente! Fuga doloribus
+                        suscipit fugiat nulla inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
+                        officia!
+                    </p>
+                </div>
+                <div class="itemBoxTwo">
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="carouselItemTwo">
+                <div class="itemBoxOne ">
+                    <div class="heading-holder">
+                        <h3>Ratan Tata</h3>
+                        <a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1661_1903)">
+                                    <path
+                                        d="M20.6491 20.9566H17.093V15.3876C17.093 14.0596 17.0693 12.35 15.2435 12.35C13.3914 12.35 13.108 13.7969 13.108 15.2909V20.9562H9.55199V9.50402H12.9658V11.0691H13.0136C13.7097 9.87888 15.004 9.16801 16.3818 9.21916C19.986 9.21916 20.6506 11.5899 20.6506 14.6741L20.6491 20.9566ZM5.53958 7.93858C4.39988 7.93879 3.4758 7.01502 3.47559 5.87529C3.47539 4.73556 4.39913 3.81146 5.53884 3.81125C6.67855 3.81105 7.60263 4.73482 7.60283 5.87455C7.60293 6.42186 7.38561 6.94681 6.99867 7.33389C6.61174 7.72097 6.08689 7.93848 5.53958 7.93858ZM7.31761 20.9566H3.75785V9.50402H7.31761V20.9566ZM22.4219 0.50887H1.97094C1.00438 0.497962 0.211747 1.27221 0.199951 2.23878V22.775C0.211344 23.7421 1.00391 24.5171 1.97094 24.5069H22.4219C23.3909 24.519 24.1865 23.744 24.2 22.775V2.2373C24.1861 1.26882 23.3904 0.494615 22.4219 0.507232"
+                                        fill="#0A66C2" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_1661_1903">
+                                        <rect width="24" height="24" fill="white"
+                                            transform="translate(0.200195 0.50708)" />
+                                    </clipPath>
+                                </defs>
+                            </svg></a>
+                    </div>
+
+                    <span>CEO & Founder, Tata Motors</span>
+                    <span class="">Event: <span class="event">LCE 2024 (3rd edition)</span> </span>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eos nihil rerum sequi voluptatum
+                        ut sunt excepturi maiores amet molestiae cupiditate, repellat ea sapiente! Fuga doloribus
+                        suscipit fugiat nulla inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
+                        officia!
+                    </p>
+                </div>
+                <div class="itemBoxTwo">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
